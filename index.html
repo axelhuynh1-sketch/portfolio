@@ -7,27 +7,28 @@
   <style>
     body {
       margin: 0;
-      background-color: #ffffff; /* Fond de la page en blanc */
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      background: transparent; /* optionnel, si tu veux voir le fond de ton site derrière */
     }
     model-viewer {
       width: 600px;
       height: 600px;
-      background-color: #ffffff; /* Fond du viewer en blanc */
+      background-color: transparent; /* fond transparent du viewer */
     }
   </style>
 </head>
 <body>
   <model-viewer
-   src="https://axelhuynh1-sketch.github.io/portfolio/ass_tortank_v2.glb"
+    src="https://axelhuynh1-sketch.github.io/portfolio/ass_tortank_v2.glb"
     alt="Modèle 3D du robot marcheur"
     auto-rotate
     camera-controls
     ar
-    background-color="#ffffff">
+    background-color="transparent">
   </model-viewer>
 </body>
 </html>
+
